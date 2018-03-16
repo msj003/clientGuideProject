@@ -6,6 +6,29 @@
 }
 
 .eachUser{
+	position : relative;
+  width : 300px;
+  height : 80px;
   background-color: lightgreen;
   margin: 10px 10px 10px 10px;
+  border-radius: 20px;
 }
+ .eachUser img{
+ 	width : 70px;
+ 	height : 80%;
+ }
+ .eachUser .badgeusertype{
+ 	position : absolute;
+ 	right : 40%;
+ 	top : 60%;
+ }
+ .eachUser .badgeemail{
+ 	position: absolute;
+ 	left : 140px;
+ 	top : 30px ;
+ }
+ .eachUser .badge{
+ 	position: absolute;
+ 	left : 140px;
+ 	top : 20% ;	
+ }

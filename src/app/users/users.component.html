@@ -3,7 +3,15 @@
   <li *ngFor="let user of users">
 
     <div class="eachUser">
-      <span class="badge">{{user.firstName}}</span> {{user.email}}
+      <img src = "../assets/profile.png">
+      <span class="badge">{{user.firstName}}</span> 
+    	<div class="badgeusertype">
+    		{{user.userType}}
+    	</div>
+    	<div class="badgeemail">
+    	{{user.email}}
+    	</div>
     </div>
+
   </li>
 </ul>
