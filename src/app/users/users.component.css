@@ -12,10 +12,17 @@
   background-color: lightgreen;
   margin: 10px 10px 10px 10px;
   border-radius: 20px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: -1;
+
 }
  .eachUser img{
  	width : 70px;
  	height : 80%;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	border-radius:50%;
+    overflow:hidden;
+    z-index: +3;
  }
  .eachUser .badgeusertype{
  	position : absolute;
@@ -25,7 +32,7 @@
  .eachUser .badgeemail{
  	position: absolute;
  	left : 140px;
- 	top : 30px ;
+ 	top : 30px;
  }
  .eachUser .badge{
  	position: absolute;
